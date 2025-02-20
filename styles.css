@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+ 
+.app {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+ 
+#taskList {
+    margin-top: 20px;
+}
+ 
+#taskList li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+ 
+.task {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+button {
+    cursor: pointer;
+}
